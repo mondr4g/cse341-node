@@ -1,0 +1,41 @@
+{
+    "c1": {
+      "firstName": "Eduardo",
+      "lastName": "Mena",
+      "email": "jmena146@gmail.com",
+      "favoriteColor": "black",
+      "birthday": "24/09/00"        
+    },
+
+    "c2": {
+        "firstName": "Yamile",
+        "lastName": "Garcia",
+        "email": "dam@gmail.com",
+        "favoriteColor": "blue",
+        "birthday": "15/08/03"        
+    },
+
+    "c3": {
+        "firstName": "Ricardo",
+        "lastName": "Mena",
+        "email": "ricMen@gmail.com",
+        "favoriteColor": "red",
+        "birthday": "23/04/03"        
+    },
+
+    "c4": {
+        "firstName": "Margarita",
+        "lastName": "Mondragon",
+        "email": "margot@gmal.com",
+        "favoriteColor": "black",
+        "birthday": "07/05/71"        
+    },
+
+    "c5": {
+        "firstName": "Amaury",
+        "lastName": "Romo",
+        "email": "romoh@gmail.com",
+        "favoriteColor": "purple",
+        "birthday": "11/06/00"        
+    },
+}
