@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.use('/contacts', require('./contacts'));
 
-routes.get('/', (req, res) => {
+router.get('/', (req, res) => {
 	res.send('Hello, Eduardo!');
 });
 
