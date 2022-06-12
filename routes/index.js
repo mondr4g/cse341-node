@@ -3,4 +3,4 @@ const router = express.Router();
 
 router.use('/contacts', require('./contacts'));
 
-module.exports = routes;
+module.exports = router;

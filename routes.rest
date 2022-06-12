@@ -1,13 +1,27 @@
+// LOCAL Deploy 
+### 
+GET http://localhost:3000/contacts 
+### 
+GET http://localhost:3000/contacts/62a537e394d772409e47d0a0
+### 
+GET http://192.168.1.66:3000/contacts/62a537e394d772409e47d0a1
+### 
+GET http://192.168.1.66:3000/contacts/62a537e394d772409e47d0a2
+### 
+GET http://192.168.1.66:3000/contacts/62a537e394d772409e47d0a3
+### 
+GET http://192.168.1.66:3000/contacts/62a537e394d772409e47d0a4
+
 // PRODUCTION Deploy 
 ### 
-GET https://cs341node-mondrag.herokuapp.com//contacts 
+GET https://cs341node-mondrag.herokuapp.com/contacts 
 ### 
-GET https://cs341node-mondrag.herokuapp.com//contacts/62a537e394d772409e47d0a0
+GET https://cs341node-mondrag.herokuapp.com/contacts/62a537e394d772409e47d0a0
 ### 
-GET https://cs341node-mondrag.herokuapp.com//contacts/62a537e394d772409e47d0a1
+GET https://cs341node-mondrag.herokuapp.com/contacts/62a537e394d772409e47d0a1
 ### 
-GET https://cs341node-mondrag.herokuapp.com//contacts/62a537e394d772409e47d0a2
+GET https://cs341node-mondrag.herokuapp.com/contacts/62a537e394d772409e47d0a2
 ### 
-GET https://cs341node-mondrag.herokuapp.com//contacts/62a537e394d772409e47d0a3
+GET https://cs341node-mondrag.herokuapp.com/contacts/62a537e394d772409e47d0a3
 ### 
-GET https://cs341node-mondrag.herokuapp.com//contacts/62a537e394d772409e47d0a4
+GET https://cs341node-mondrag.herokuapp.com/contacts/62a537e394d772409e47d0a4
