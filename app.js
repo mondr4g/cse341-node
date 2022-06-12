@@ -2,13 +2,22 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongodb = require('./db/connect');
 
-const app = express();
 const port = process.env.PORT || 3000;
+const app = express();
 
+app
+    .use(bodyParser.json())
+    .use((req, res, next) => {
+        res.setHeader('Acces-Control-Allow-Origin', '*');
+        next();    
+    })
+    .use('/', require('./routes'));
 
-app.use()
-app.use('/', require('./routes'));
-
-app.listen(port, () => {
-    console.log('Example app listening on port ${port}')
-})
+mongodb.initDb((e, mongodb) => {
+    if (e) {
+        console.log(e);
+    } else {
+        app.listen(port);
+        console.log('DB conection with succes on ${port}');
+    }
+});
