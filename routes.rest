@@ -12,6 +12,33 @@ GET http://192.168.1.66:3000/contacts/62a537e394d772409e47d0a3
 ### 
 GET http://192.168.1.66:3000/contacts/62a537e394d772409e47d0a4
 
+### Create 
+POST http://192.168.1.66:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Jimmy", 
+    "lastName":"Butler", 
+    "email":"jimmy@example.com", 
+    "favoriteColor":"White", 
+    "birthday":"10/05/89"
+}
+
+### PUT 
+PUT http://192.168.1.66:3000/contacts/62a537e394d772409e47d0a0 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Eduardo", 
+    "lastName":"Mena", 
+    "email":"jmena04@example.com", 
+    "favoriteColor":"black", 
+    "birthday":"24/09/00"
+}
+
+### DELETE  
+DELETE http://192.168.1.66:3000/contacts/62aa685accf206c8e918d2bb HTTP/1.1
+
 // PRODUCTION Deploy 
 ### 
 GET https://cs341node-mondrag.herokuapp.com/contacts 
@@ -25,3 +52,30 @@ GET https://cs341node-mondrag.herokuapp.com/contacts/62a537e394d772409e47d0a2
 GET https://cs341node-mondrag.herokuapp.com/contacts/62a537e394d772409e47d0a3
 ### 
 GET https://cs341node-mondrag.herokuapp.com/contacts/62a537e394d772409e47d0a4
+
+### Create 
+POST https://cs341node-mondrag.herokuapp.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Jimmy", 
+    "lastName":"Butler", 
+    "email":"jimmy@example.com", 
+    "favoriteColor":"White", 
+    "birthday":"10/05/89"
+}
+
+### PUT 
+PUT https://cs341node-mondrag.herokuapp.com/contacts/62a537e394d772409e47d0a0 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Eduardo", 
+    "lastName":"Mena", 
+    "email":"jmena04@example.com", 
+    "favoriteColor":"black", 
+    "birthday":"24/09/00"
+}
+
+### DELETE  
+DELETE https://cs341node-mondrag.herokuapp.com/contacts/62a537e394d772409e47d0a4 HTTP/1.1
