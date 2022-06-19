@@ -31,7 +31,7 @@ content-type: application/json
 {
     "firstName":"Eduardo", 
     "lastName":"Mena", 
-    "email":"jmena04@example.com", 
+    "email":"jm@gmail.com.com", 
     "favoriteColor":"black", 
     "birthday":"24/09/00"
 }
@@ -72,10 +72,10 @@ content-type: application/json
 {
     "firstName":"Eduardo", 
     "lastName":"Mena", 
-    "email":"jmena04@example.com", 
-    "favoriteColor":"black", 
+    "email":"jm04@gmail.com", 
+    "favoriteColor":"red", 
     "birthday":"24/09/00"
 }
 
 ### DELETE  
-DELETE https://cs341node-mondrag.herokuapp.com/contacts/62a537e394d772409e47d0a4 HTTP/1.1
+DELETE https://cs341node-mondrag.herokuapp.com/contacts/62aa6cb3aae52b79c4253bc5 HTTP/1.1
