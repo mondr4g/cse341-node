@@ -5,10 +5,10 @@
     "description": "Contacts REST API for CS341",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cs341node-mondrag.herokuapp.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
